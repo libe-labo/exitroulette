@@ -1,0 +1,154 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font:inherit;font-size:100%;vertical-align:baseline}html{line-height:1}table{border-collapse:collapse;border-spacing:0}caption,th,td{text-align:left;font-weight:normal;vertical-align:middle}q,blockquote{quotes:none}q:before,q:after,blockquote:before,blockquote:after{content:"";content:none}a img{border:none}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=3af16084-ba56-49ca-b37d-0b49b59e1927");
+@font-face{font-family:"Proxima Nova Regular";font-weight:normal;font-style:normal;src:url('http://s1.libe.com/font/license/27522D_B_0.eot?6f3b7a3a38b9') format("eot");src:url('http://s1.libe.com/font/license/27522D_B_0.eot?#iefix') format("embedded-opentype"),url('http://s1.libe.com/font/license/27522D_B_0.woff?973092db2463') format("woff"),url('http://s1.libe.com/font/license/27522D_B_0.ttf?326b4ed42028') format("truetype"),url('http://s1.libe.com/font/license/27522D_B_0.svg#Proxima Nova Regular') format("svg")}@font-face{font-family:"Proxima Nova Regular Bold";font-weight:normal;font-style:normal;src:url('http://s1.libe.com/font/license/27522D_C_0.eot?7651b0835130') format("eot");src:url('http://s1.libe.com/font/license/27522D_C_0.eot?#iefix') format("embedded-opentype"),url('http://s1.libe.com/font/license/27522D_C_0.woff?1d97b03ffbee') format("woff"),url('http://s1.libe.com/font/license/27522D_C_0.ttf?c4b6119d8273') format("truetype"),url('http://s1.libe.com/font/license/27522D_C_0.svg#Proxima Nova Regular Bold') format("svg")}@font-face{font-family:"Trade Gothic Bold Cond";font-weight:normal;font-style:normal;src:url('http://s1.libe.com/font/license/tradegothicltstd-bdcn20.eot?1669fae0818a') format("eot");src:url('http://s1.libe.com/font/license/tradegothicltstd-bdcn20.eot?#iefix') format("embedded-opentype"),url('http://s1.libe.com/font/license/tradegothicltstd-bdcn20.woff?7f6be2b8eca9') format("woff"),url('http://s1.libe.com/font/license/tradegothicltstd-bdcn20.ttf?5dda5c1e2946') format("truetype"),url('http://s1.libe.com/font/license/tradegothicltstd-bdcn20.svg#Trade Gothic Bold Cond') format("svg")}
+
+body {
+    width: 100%;
+}
+
+div.content {
+    width: 580px;
+    margin: 100px auto;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+div#exit {
+    overflow: hidden;
+    width: 275px;
+    height: 175px;
+    position: relative;
+    color: #000;
+    margin-bottom: 35px;
+}
+
+div#exit li {
+    width: 275px;
+    height: 175px;
+    list-style-type: none;
+    text-align: right;
+    display: block;
+    position: relative;
+    top: 0;
+}
+
+div.exitwrapper {
+    font-family: 'Trade Gothic Bold Cond';
+    text-transform: uppercase;
+    font-size: 12em;
+    float: left;
+    clear: both;
+    display: block;
+    padding: 5px 10px;
+    margin: 0 auto;
+    text-align: center;
+    color: #C42121;
+}
+
+div.exitwrapper > div {
+    float: left;
+}
+
+button {
+    display: block;
+    clear: both;
+    font-size: 1.5em;
+    background-color: #c42121;
+    border: none;
+    border-bottom: 5px solid #AB0808;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-family: 'Proxima Nova Regular';
+    font-size: 1.2em;
+    font-weight: 800;
+    color: #fff;
+}
+
+button:hover {
+    background-color: #AB0808;
+    border-bottom: 5px solid #910000;
+}
+
+h2 {
+    font-family: 'Trade Gothic Bold Cond';
+    text-transform: uppercase;
+    padding: 40px 10px 0px 10px;
+    font-size: 3em;
+}
+
+h2 a {
+    font-size: .5em !important;
+    color: #888;
+    text-decoration: none;
+}
+
+h2 a:hover {
+    color: #c42121;
+}
+
+h3 {
+    font-family: 'Trade Gothic Bold Cond';
+    padding: 0px 10px 5px 10px;
+    font-size: 1.5em;
+    color: #888;
+}
+
+p {
+    font-family: 'Proxima Nova Regular';
+    font-size: 1em;
+    padding: 5px 10px 10px 10px;
+    line-height: 1.2em;
+}
+
+p a {
+    text-decoration: none;
+    color: #C42121;
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+.center {
+    position: relative;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+       -moz-transform: translate(-50%, 0);
+         -o-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+}
+
+p.lireaussi {
+    display: none;
+    font-family: 'Trade Gothic Bold Cond';
+}
+
+p.lireaussi span:first-of-type {
+    text-transform: uppercase;
+}
+
+@media (max-width: 960px) {
+    div.content {
+        width: 90%;
+    }
+
+    div.exitwrapper {
+        font-size: 6em;
+    }
+
+    div#exit, div#exit li {
+        width: 150px;
+        height: 85px;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: 1em;
+    }
+}
