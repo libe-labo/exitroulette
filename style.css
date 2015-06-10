@@ -70,6 +70,18 @@ button:hover {
     border-bottom: 5px solid #910000;
 }
 
+h1 {
+    font-family: 'Trade Gothic Bold Cond';
+    padding: 10px 10px 5px 10px;
+    font-size: 1.5em;
+}
+
+h4 {
+    font-family: 'Proxima Nova Regular';
+    font-size: 1em;
+    padding: 10px 10px 10px 10px;
+}
+
 h2 {
     font-family: 'Trade Gothic Bold Cond';
     text-transform: uppercase;
